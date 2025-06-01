@@ -30,8 +30,11 @@ jobs:
           sed -i '$ d' README.md
           echo "*The last check was conducted at $DATE.*" >> README.md
 
-      - name: Commit and Push Changes
+      - name: Setup git
         uses: actions4git/setup-git@v1
-        run: git add .
-        run: git commit --message "$(date --rfc-3339=seconds)"
-        run: git push -f origin master
+
+      - name: Commit and Push Changes
+        run: |
+          git add .
+          git commit --message "$(date --rfc-3339=seconds)"
+          git push -f origin master
