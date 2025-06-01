@@ -31,7 +31,6 @@ jobs:
           echo "*The last check was conducted at $DATE.*" >> README.md
 
       - name: Commit and Push Changes
-        uses: actions/checkout@v4
         uses: actions4git/setup-git@v1
         run: git add .
         run: git commit --message "$(date --rfc-3339=seconds)"
