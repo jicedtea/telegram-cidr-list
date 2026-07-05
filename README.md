@@ -9,4 +9,4 @@ Multi-formatted Telegram CIDR list.
 Source data from [Telegram API](https://core.telegram.org/resources/cidr.txt).  
 GitLab CI/CD checks for updates **ONCE A DAY**.  
 Both [GitLab](https://gitlab.com/fernvenue/telegram-cidr-list) and [GitHub](https://github.com/fernvenue/telegram-cidr-list) mirror each other, PRs are welcome on either side.  
-*The last check was conducted at 2026-07-04 02:24:47+00:00.*
+*The last check was conducted at 2026-07-05 02:33:57+00:00.*
